@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: rgb(255, 253, 253);
+    color: white;
+}
+
+.left {
+    width: 25vw;
+    padding: 10px;
+    background-color: black;
+}
+
+.right {
+    width: 75vw;
+    padding: 10px;
+    margin-top: 20px;
+    position: relative;
+
+}
+
+.bg-color {
+    background-color: black;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.home {
+    background-color: #121210;
+}
+
+.home ul li {
+    width: 20px;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding-top: 14px;
+
+
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.library {
+    min-height: 78vh;
+    position: relative;
+}
+
+.header-lib {
+
+    display: flex;
+    padding-top: 14px;
+    justify-content: space-between;
+}
+
+.header-lib img {
+    width: 20px;
+}
+
+.liblogo-h {
+    gap: 15px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    margin-top: 12px;
+    font-size: 10px;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+.footer a {
+    color: gray;
+    text-decoration-style: none;
+}
+
+.right-header {
+    justify-content: space-between;
+    background-color: #1d1d19;
+}
+
+.rHeader-left {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.cardContainer {
+    display: flex;
+    gap: 5px;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    height: 70vh;
+    overflow-y: auto;
+    /* margin-bottom: 20px; */
+}
+
+.card {
+    position: relative;
+    background-color: #252525;
+    padding: 10px;
+    width: 152px;
+    height: 220px;
+
+
+}
+
+.card img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.card h3 {
+
+    font-size: 11px;
+}
+
+.card p {
+    font-size: 9px;
+}
+
+.playicon {
+    position: absolute;
+    right: 15px;
+    bottom: 80px;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.card:hover .playicon {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.3s ease-in-out;
+}
+
+
+.btn-SignUp {
+    background-color: #1d1d19;
+    color: rgb(56, 55, 55);
+    border-radius: 20px;
+    width: 60px;
+    box-shadow: none;
+    height: 10px;
+    border: none;
+}
+
+.btn-SignUp:hover {
+    font-size: 12px;
+    /* background-color: rgb(39, 39, 39); */
+    color: rgb(212, 212, 212);
+}
+
+.btn-Login {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    width: 60px;
+    box-shadow: none;
+    border: none;
+    height: 32px;
+}
+
+.btn-Login:hover {
+    font-size: 12px;
+
+}
+
+.play {
+    position: fixed;
+    bottom: 10px;
+    width: 70vw;
+    background-color: rgb(26 25 25);
+    ;
+    padding: 5px;
+}
+
+.playButtons {
+    gap: 12px;
+}
+
+.songs {
+    height: 350px;
+    margin-top: 12px;
+    margin-bottom: 35px;
+    /* background-color: #1d1d19; */
+    overflow-y: scroll;
+
+}
+
+/* .songs ul {
+    
+    /* overflow-wrap: normal; *
+    
+    
+} */
+.songs ul li {
+    font-size: 12px;
+    margin: 12px 0px;
+    list-style: none;
+    margin-right: 10px;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    padding: 12px;
+    border: 2px solid rgb(180, 180, 180);
+    /* justify-content: space-around; */
+    border-radius: 5px;
+    height: 30px;
+    /* Set consistent height */
+    /* overflow: hidden; */
+
+    align-items: center;
+    /* Vertically align */
+}
+
+.songs .info {
+    /* overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; */
+    width: 344px;
+    font-size: 10px;
+}
+
+.playNow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.playNow {
+    font-size: 10px;
+}
+
+.play {
+    /* background: red; */
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 70%;
+}
+
+.seekbar {
+    position: relative;
+    cursor: pointer;
+    background-color: white;
+    width: 100%;
+    height: 2px;
+    margin: 10px 0;
+}
+
+.circle {
+
+    position: absolute;
+    top: -6px;
+    left: 0%;
+    z-index: 10;
+    background-color: white;
+    width: 13px;
+    height: 13px;
+    border-radius: 30px;
+    transition: left 0.5s;
+}
+
+.playButtons img {
+    cursor: pointer;
+}
+
+.playcontrols {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.songInfo {
+    color: white;
+    font-size: 10px;
+    width: 160px;
+
+}
+
+.songTime {
+    color: white;
+    font-size: 10px;
+}
+
+.cross {
+    width: 40px;
+}
+
+.hamburger,
+.cross {
+    display: none;
+}
+
+.volTime {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.volume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.volume input {
+    height: 3px;
+    background-color: none;
+    accent-color: white;
+    filter: invert(1);
+    width: 100px;
+    cursor: pointer;
+}
+
+/* ====================================================================================================== */
+
+
+@media (max-width: 1150px) {
+    .left {
+        background-color: black;
+        position: absolute;
+        left: -125%;
+        transition: all ease-out 0.5s;
+        z-index: 1;
+        width: 350px;
+    }
+
+    .right {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .play {
+        width: 90vw;
+        height: 106px;
+    }
+
+    .hamburger,
+    .cross {
+        display: inline-block;
+        width: 40px;
+    }
+
+    .playcontrols {
+        flex-direction: column;
+    }
+
+    
+
+    .songInfo {
+        width: auto;
+    }
+
+    .volTime {
+        flex-direction: column;
+    }
+    .volume input{
+        width: auto;
+    }
+
+}
+
+@media (max-width: 370px){
+    .cardContainer{
+        justify-content: center;
+    }
+}
