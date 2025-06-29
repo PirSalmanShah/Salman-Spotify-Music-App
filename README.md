@@ -18,46 +18,6 @@ A sleek, modern, and customizable **music player web app** built with pure HTML,
 ---
 
 ## 🗂️ Folder Structure
-# 🎶 Web Music Player
-
-A sleek, modern, and customizable **music player web app** built with pure HTML, CSS, and JavaScript. It dynamically loads songs from folders, shows cover art, and supports essential audio controls like volume, repeat, and auto-next. Ideal for personal music libraries or lightweight web-based playback systems.
-
----
-
-## 🚀 Features
-
-- 🎵 **Dynamic Song Loading**: Automatically scans artist folders for `.mp3`, `cover.jpeg`, and `info.json`.
-- 🖼️ **Album Art Display**: Shows album cover from each folder.
-- 📝 **Metadata Support**: Song/album title and description from `info.json`.
-- 🔊 **Volume Control**: Adjustable with visual click.
-- 🔁 **Repeat Mode**: Replays the current song in a loop.
-- ⏭️ **Auto-Next Mode**: Seamlessly moves to the next track.
-- 💡 **Modern UI**: Clean, dark-themed design with smooth interactions.
-- 📱 **Responsive Design**: Works on all screen sizes — mobile, tablet, desktop.
-
----
-
-## 🗂️ Folder Structure
-# 🎶 Web Music Player
-
-A sleek, modern, and customizable **music player web app** built with pure HTML, CSS, and JavaScript. It dynamically loads songs from folders, shows cover art, and supports essential audio controls like volume, repeat, and auto-next. Ideal for personal music libraries or lightweight web-based playback systems.
-
----
-
-## 🚀 Features
-
-- 🎵 **Dynamic Song Loading**: Automatically scans artist folders for `.mp3`, `cover.jpeg`, and `info.json`.
-- 🖼️ **Album Art Display**: Shows album cover from each folder.
-- 📝 **Metadata Support**: Song/album title and description from `info.json`.
-- 🔊 **Volume Control**: Adjustable with visual click.
-- 🔁 **Repeat Mode**: Replays the current song in a loop.
-- ⏭️ **Auto-Next Mode**: Seamlessly moves to the next track.
-- 💡 **Modern UI**: Clean, dark-themed design with smooth interactions.
-- 📱 **Responsive Design**: Works on all screen sizes — mobile, tablet, desktop.
-
----
-
-## 🗂️ Folder Structure
 .
 ├── index.html
 ├── script.js
@@ -90,11 +50,11 @@ Each `info.json` should contain:
 ---
 
 ## 🛠️ Technologies Used
-# HTML5 – Structure
+HTML5 – Structure
 
-# CSS3 – Styling & responsive layout
+CSS3 – Styling & responsive layout
 
-# JavaScript (Vanilla) – Logic, audio playback, UI interactivity
+JavaScript (Vanilla) – Logic, audio playback, UI interactivity
 
 ## 💡 Future Enhancements
 Playlist support with drag & drop
