@@ -81,26 +81,22 @@ A sleek, modern, and customizable **music player web app** built with pure HTML,
 
 Each `info.json` should contain:
 
-```json
+`json
 {
   "title": "Album Title",
   "description": "A short description of the album or artist."
-}
+}`
 
+---
 
-🛠️ Technologies Used
-HTML5 – Structure
+## 🛠️ Technologies Used
+# HTML5 – Structure
 
-CSS3 – Styling & responsive layout
+# CSS3 – Styling & responsive layout
 
-JavaScript (Vanilla) – Logic, audio playback, UI interactivity
+# JavaScript (Vanilla) – Logic, audio playback, UI interactivity
 
-📸 Screenshots
-Desktop View	Mobile View
-
-Replace the placeholder image links with actual screenshots from your project.
-
-💡 Future Enhancements
+## 💡 Future Enhancements
 Playlist support with drag & drop
 
 Search and filter functionality
@@ -113,19 +109,16 @@ Waveform visualization
 
 Backend integration for streaming
 
-🧑‍💻 How to Run
+## 🧑‍💻 How to Run
 Clone the repo:
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/music-player-web.git
+`git clone https://github.com/your-username/music-player-web.git`
 Open index.html in your browser.
 
 Add your own songs in the /songs/ directory using the given folder format.
 
-🙌 Acknowledgments
+## 🙌 Acknowledgments
 Thanks to open-source inspiration and the amazing world of web development!
 
-⭐ Show Your Support
+## ⭐ Show Your Support
 If you like this project, consider giving it a ⭐ and sharing it!
